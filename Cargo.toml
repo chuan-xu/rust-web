@@ -1,0 +1,26 @@
+[package]
+name = "myaxum"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.51"
+futures = "0.3"
+num_cpus = "1.13.0"
+hyper = "0.14"
+tower = "0.4.8"
+tokio = { version = "1.12.0", features = ["full"] }
+axum = "0.2"
+tracing = "0.1"
+tracing-subscriber = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.5"
+bb8 = "0.7"
+bb8-redis = "0.10"
+bb8-postgres = "0.7.0"
+tokio-postgres = "0.7.0"
+redis = { version = "0.21", features = ["tokio-comp"] }
+sha3 = "0.9.1"

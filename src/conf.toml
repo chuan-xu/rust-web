@@ -1,0 +1,4 @@
+cpu_nums = 3
+listen_addr = "192.168.0.100:9000"
+redis_addr = "192.168.0.101:6379"
+posg_addr = "host=192.168.0.101 user=postgres port=5432 password='123456'"
